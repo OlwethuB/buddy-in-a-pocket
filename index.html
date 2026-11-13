@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#176b61">
+    <meta name="description" content="Buddy in a Pocket helps tertiary students build and maintain a study routine.">
+    <title>Buddy in a Pocket</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <div class="app-shell">
+        <header class="topbar">
+            <a href="#dashboard" class="brand" data-screen="2" aria-label="Buddy in a Pocket home">
+                <span class="brand-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4" />
+                    </svg>
+                </span>
+                <span>Buddy in a Pocket</span>
+            </a>
+            <span class="prototype-label">STUDY COMPANION · PROTOTYPE</span>
+        </header>
+
+        <div class="app-layout">
+            <nav class="sidebar" aria-label="Main navigation">
+                <p class="nav-heading">YOUR SPACE</p>
+                <button data-screen="2" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 11 12 3l9 8" />
+                        <path d="M5 10v10h14V10" />
+                    </svg>
+                    <span>Dashboard</span>
+                </button>
+                <button data-screen="3" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                    <span>Check-in</span>
+                </button>
+                <button data-screen="4" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="5" width="14" height="14" rx="2" />
+                        <path d="M7 9h6M7 13h6" />
+                    </svg>
+                    <span>Flashcards</span>
+                </button>
+                <button data-screen="5" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
+                    </svg>
+                    <span>Mood tracker</span>
+                </button>
+                <button data-screen="6" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M12 8v4M12 16h.01" />
+                    </svg>
+                    <span>Accessibility</span>
+                </button>
+
+                <p class="nav-heading">PLAN & LEARN</p>
+                <button data-screen="7" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="17" rx="2" />
+                        <path d="M3 9h18M8 2v4M16 2v4" />
+                    </svg>
+                    <span>My timetable</span>
+                </button>
+                <button data-screen="8" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5z" />
+                        <path d="M4 17.5A2.5 2.5 0 0 1 6.5 15H20" />
+                        <path d="M8 7h7M8 10h7" />
+                    </svg>
+                    <span>Study library</span>
+                </button>
+                <button data-screen="9" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="8" r="3" />
+                        <circle cx="17" cy="9" r="2.5" />
+                        <path d="M3 20a6 6 0 0 1 12 0M14 20a4 4 0 0 1 7 0" />
+                    </svg>
+                    <span>Community</span>
+                </button>
+
+                <p class="nav-heading">PREFERENCES</p>
+                <button data-screen="10" class="nav-item">
+                    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H10a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V10a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" />
+                    </svg>
+                    <span>Settings</span>
+                </button>
+
+                <div class="sidebar-note">
+                    <span aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 21c-4-3-8-6-8-10a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 4-4 7-8 10z" />
+                        </svg>
+                    </span>
+                    <p>Small steps count. You can always begin again.</p>
+                </div>
+            </nav>
+
+            <main id="main-content" class="main-content" tabindex="-1">
+                <div id="screen-root"></div>
+            </main>
+        </div>
+
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <button data-screen="2" aria-label="Dashboard">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 11 12 3l9 8" />
+                    <path d="M5 10v10h14V10" />
+                </svg>
+                <span>Home</span>
+            </button>
+            <button data-screen="3" aria-label="Check-in">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+                <span>Buddy</span>
+            </button>
+            <button data-screen="4" aria-label="Flashcards">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="5" width="14" height="14" rx="2" />
+                    <path d="M7 9h6M7 13h6" />
+                </svg>
+                <span>Cards</span>
+            </button>
+            <button data-screen="5" aria-label="Mood tracker">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
+                </svg>
+                <span>Mood</span>
+            </button>
+            <button data-screen="7" aria-label="Timetable">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="17" rx="2" />
+                    <path d="M3 9h18M8 2v4M16 2v4" />
+                </svg>
+                <span>Plan</span>
+            </button>
+            <button data-screen="8" aria-label="Study library">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5z" />
+                    <path d="M4 17.5A2.5 2.5 0 0 1 6.5 15H20" />
+                    <path d="M8 7h7M8 10h7" />
+                </svg>
+                <span>Library</span>
+            </button>
+            <button data-screen="9" aria-label="Community">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="8" r="3" />
+                    <circle cx="17" cy="9" r="2.5" />
+                    <path d="M3 20a6 6 0 0 1 12 0M14 20a4 4 0 0 1 7 0" />
+                </svg>
+                <span>Community</span>
+            </button>
+            <button data-screen="10" aria-label="Settings">
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3" />
+                    <path
+                        d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H10a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V10a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" />
+                </svg>
+                <span>Settings</span>
+            </button>
+        </nav>
+    </div>
+
+    <div id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Shared dependencies first (ai, hourly content, timer, schedule), then app controller, then screens -->
+    <script src="./js/ai.js" defer></script>
+    <script src="./js/hourly-content.js" defer></script>
+    <script src="./js/timer.js" defer></script>
+    <script src="./js/schedule.js" defer></script>
+    <script src="./js/app.js" defer></script>
+
+    <!-- Screens -->
+    <script src="./js/dashboard.js" defer></script>
+    <script src="./js/conversation.js" defer></script>
+    <script src="./js/flashcard.js" defer></script>
+    <script src="./js/mood.js" defer></script>
+    <script src="./js/accessibility.js" defer></script>
+    <script src="./js/timetable.js" defer></script>
+    <script src="./js/notes.js" defer></script>
+    <script src="./js/community.js" defer></script>
+    <script src="./js/settings.js" defer></script>
+</body>
+
+</html>

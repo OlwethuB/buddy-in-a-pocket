@@ -1,0 +1,14 @@
+
+{
+  "id": "./",
+  "name": "Buddy in a Pocket",
+  "short_name": "Buddy",
+  "description": "A supportive study companion for tertiary students.",
+  "lang": "en-ZA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fbf8f1",
+  "theme_color": "#176b61"
+}
